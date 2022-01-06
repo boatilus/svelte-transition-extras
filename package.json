@@ -7,8 +7,12 @@
     "animations"
   ],
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Ron Jones <ron@ovao.dev> (https://ovao.dev)",
+  "bugs": {
+    "url": "https://github.com/boatilus/svelte-transition-extras/issues"
+  },
+  "homepage": "https://github.com/boatilus/svelte-transition-extras",
   "scripts": {
     "dev": "svelte-kit dev",
     "build": "svelte-kit build",
@@ -29,12 +33,14 @@
     "eslint-plugin-svelte3": "^3.2.1",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
-    "svelte": "^3.44.0",
     "svelte-check": "^2.2.6",
     "svelte-preprocess": "^4.9.4",
     "svelte2tsx": "^0.4.12",
     "tslib": "^2.3.1",
     "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "svelte": "^3.44.0"
   },
   "type": "module"
 }
