@@ -32,8 +32,8 @@ As an example, for conditional transitions:
   export let transitionHeader = true
 </script>
 
-// Fade the H1 element in based on the value of the component's
-// `transitionHeader` prop.
+<!-- Fade the H1 element in if the component's `transitionHeader` prop is true;
+otherwise perform no transition. -->
 
 <h1 in:fade={{ condition: transitionHeader }}>Hello!</h1>
 ```
