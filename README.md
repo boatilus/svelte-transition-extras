@@ -1,5 +1,7 @@
 # svelte-transition-extras
 
+![npm](https://img.shields.io/npm/v/svelte-transition-extras)
+
 A set of [Svelte](https://github.com/sveltejs/svelte) transition effects that wrap [the built-in transition functions](https://svelte.dev/docs#run-time-svelte-transition) (`fade`, `slide`, etc.), allowing for a _bit_ more control over their execution.
 
 ## Installing
