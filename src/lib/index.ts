@@ -10,7 +10,7 @@ export {
   fly as flyOnce,
   scale as scaleOnce,
   slide as slideOnce
-} from './once'
+} from './once/index'
 
 export {
   blur as blurIf,
@@ -19,4 +19,4 @@ export {
   fly as flyIf,
   scale as scaleIf,
   slide as slideIf
-} from './if'
+} from './if/index'
